@@ -1089,7 +1089,7 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = 'TAG ALL
+                let teks = `TAG ALL
  
                  ðŸ—žï¸ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
