@@ -526,7 +526,7 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`24/7 Online Bot By Tech God Sir Bot Owner ${ownername} For more  Hacks Search On Youtube Tech God`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`24/7 Online Bot By igwetech Bot Owner ${ownername} For more  Hacks Search On GITHUB DADDY-IGWE`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
@@ -736,7 +736,7 @@ senddocu(buffer)
                 break
             case 'shutdown':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon(`GoodbyeðŸ–`)
+                replygcxeon(`blazard-guy👌`)
                 await sleep(3000)
                 process.exit()
                 break
@@ -916,7 +916,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Owner',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                                thumbnailUrl: 'https://i.imgur.com/hnyi07e.jpeg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1089,7 +1089,7 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = `*ðŸ‘¥ Tag All*
+                let teks = 'TAG ALL
  
                  ðŸ—žï¸ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
@@ -1204,7 +1204,7 @@ senddocu(buffer)
                 neww = performance.now()
                 oldd = performance.now()
                 respon = `
-Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
+ALIEN 👽 Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
 ðŸ’» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
@@ -1222,9 +1222,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `YouTube Tech-God`,
+                            title: `Github DADDY-IGWE`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            thumbnailUrl: 'https://i.imgur.com/hnyi07e.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1238,7 +1238,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}\n Premium is free! \n Put Your number in Premium json in file! \n do not know check video on Youtube channel Tech God`
+                let teks = `Hi ${pushname}\n Premium is free! \n Put Your number in Premium json in file! \n do not know check account Github DADDY-IGWE`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1246,7 +1246,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            thumbnailUrl: 'https://i.imgur.com/hnyi07e.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1258,15 +1258,15 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `Bots Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = `Alien's Have Been Running For ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `Yt Tech God`,
-                            body: `Love from Tech God ❤️`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            title: `GT DADDY-IGWE`,
+                            body: `ALIEN IS TRUE👽🚨`,
+                            thumbnailUrl: 'https://i.imgur.com/hnyi07e.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1284,9 +1284,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT OF techgodv6 is on YouTube Tech God❤️`,
-                            body: `Love You bro 😘`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            title: `SCRIPT OF Alien XV is on GitHub`,
+                            body: `https://GitHub.com/DADDY-IGWE/Alien-XV`,
+                            thumbnailUrl: 'https://i.imgur.com/hnyi07e.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1298,9 +1298,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us \n G pay Number india 9012008456`
+                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us \n G pay Number Gabon 24160338758`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Upi id techgodsir@okicici\n\n' + textnate
+                    text: 'Api on igwetech inc.\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1310,7 +1310,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome ownerðŸ˜‡`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome 👽 Alien`, mentions: [sender]}, { quoted: repf })
 }
 break
             case 'sticker':
